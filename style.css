@@ -7,6 +7,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     font-size: 45px;
@@ -37,4 +38,40 @@ nav ul li a{
     border: 0;
     color: whitesmoke;
     font-size: 20px;
+}
+
+/* header section */
+
+.header{
+    background-color: 
+    #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-title > h3{
+    color:  #474747;
+    
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    }
+.banner-title > h1{
+    color: #181818;
+    
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+} 
+.banner-title > p {
+    color: #757575;
+    
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.banner img{
+    width: 500px;
 }
