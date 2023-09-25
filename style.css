@@ -83,7 +83,10 @@ nav ul li a{
     width: 500px;
 }
 
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section */
 .about{
     margin: 130px 0;
@@ -107,4 +110,21 @@ nav ul li a{
 
     font-weight: 400;
     line-height: 30px
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+
+
+    font-size: 20px;
+
+    font-weight: 400;}
+.info-description{
+    color: var(--Dark-02, #474747);
+    font-size: 20px;
+    font-weight: 700;
 }
